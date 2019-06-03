@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Do dishes",
+            "description": "That will be done by Samanta",
+            "complete": false,
+            "date": 1389878466730
+        },
+        {
+            "id": 2,
+            "title": "Do homework",
+            "description": "Study geometric topology and complex analysis",
+            "complete": false,
+            "date": 1389988926901
+        },
+        {
+            "id": 3,
+            "title": "Meet with girlfriend",
+            "description": "Go to the cinema to watch Titanic",
+            "complete": false,
+            "date": 1389992494240
+        }
+    ]
+}
