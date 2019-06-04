@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { TaskService } from '../task.service';
 
 @Component({
   selector: 'app-page-template',
@@ -14,12 +15,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
     ])
   ]
 })
-export class PageTemplateComponent implements OnInit {
+export class PageTemplateComponent {
   @Input() title: string;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }

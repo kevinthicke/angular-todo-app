@@ -1,3 +1,15 @@
-<p>
-  tasks works!
-</p>
+<app-page-template [title]="this.title">
+  <div class="content card-columns">
+    <div *ngFor="let task of tasks" class="card mb-3" style="max-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{ task.title }}</h5>
+            <p class="card-text">{{ task.description }}</p>
+            <p class="card-text"><small class="text-muted">{{ task.date }}</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-page-template>

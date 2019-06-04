@@ -1,8 +1,5 @@
 <app-page-template [title]="this.title">
-  <form [formGroup]="taskForm" class="content ml-5 mr-5" (submit)="save()">
-    <div *ngIf="taskForm.errors" class="alert alert-danger">
-      Title or description is invalid
-    </div>
+  <form [formGroup]="taskForm" class="content" (submit)="save()">
     <div class="form-group row">
       <label for="title" class="col-sm-3 col-form-label">Title</label>
       <input formControlName="title" type="text" id="title" class="form-control col-sm-9 col-form-label" autocomplete="off">
@@ -13,6 +10,9 @@
       </div>
     <div class="button-group d-flex justify-content-end row">
       <button class="btn btn-success" type="submit">Save</button>
+    </div>
+    <div *ngIf="taskForm.errors" class="alert alert-danger row mt-2" @fade>
+        Title must be unique
     </div>
   </form>
 </app-page-template>
