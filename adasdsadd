@@ -1,0 +1,93 @@
+[33mcommit 57ea449b70575bae8fc377555cd5008ef0b360fe[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;32mkevin-dev[m[33m)[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Tue Jun 4 11:46:29 2019 +0100
+
+    add task page on contruct
+
+[33mcommit 7fd2a5923dfd1f24a75b174e84f7293a2dbb7602[m[33m ([m[1;31morigin/dev[m[33m)[m
+Merge: 058dde4 2de0ddf
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 16:18:35 2019 +0100
+
+    Merge branch 'dev' of https://github.com/kevinthicke/angular-todo-app into dev
+
+[33mcommit 058dde4132319eca28aa3a865ef08abc2662ad6c[m[33m ([m[1;31morigin/kevin-dev[m[33m)[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 16:15:46 2019 +0100
+
+    navbar finished
+
+[33mcommit 2de0ddf9f7f221543565c760e7bae2a54e676de2[m[33m ([m[1;31morigin/samantadev[m[33m)[m
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 15:42:07 2019 +0100
+
+    service added
+
+[33mcommit 417834f1f12110b47492a6b00b6ee4da9d22ce28[m
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 15:37:44 2019 +0100
+
+    card component created
+
+[33mcommit fd6acfbe5e5898ee7428bee32b8b6067a7c43715[m
+Merge: 48a074c 4660416
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 15:24:54 2019 +0100
+
+    merge fixed
+
+[33mcommit 4660416c59cc4703a502fc4b6ad9fbce3f38f604[m
+Merge: c93a43b de540df
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 15:18:46 2019 +0100
+
+    included animations on Home page
+
+[33mcommit 48a074c9ef12b13dba14bfb134593d75f34ee0be[m
+Merge: de540df c93a43b
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 15:18:14 2019 +0100
+
+    merge done
+
+[33mcommit c93a43b03f371aec431a3465c3162b01ed3b5b69[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 15:01:02 2019 +0100
+
+    router created
+
+[33mcommit de540dfc531fc6a65e46857726dd555f0f06e1ec[m
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 14:59:07 2019 +0100
+
+    merge dev and samantadev
+
+[33mcommit 89934b26f5f824dd2d1df7c429982dd4cdb5da96[m
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 14:55:54 2019 +0100
+
+    navbar changed
+
+[33mcommit 96d0e4e4e66925a192e08251f439a7689f785795[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 14:38:20 2019 +0100
+
+    created taskDB.json json-server (for dev)
+
+[33mcommit ba15bf911ae2b4c2c86a46c9305a1e5e9e254206[m
+Author: Samanta Lara <slaragiannone@gmail.com>
+Date:   Mon Jun 3 14:34:07 2019 +0100
+
+    navbar component created
+
+[33mcommit 148ee3521a198d100d5b0ca04f1a1e78ad4aac6b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 14:13:20 2019 +0100
+
+    Added bootstrap config
+
+[33mcommit 888957855c57da3ff066bf725f1faf323f5bf0ed[m
+Author: kevinthicke <keviincabrera@gmail.com>
+Date:   Mon Jun 3 14:08:32 2019 +0100
+
+    Initial commit
