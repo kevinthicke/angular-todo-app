@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  selector: 'app-page-template',
+  templateUrl: './page-template.component.html',
+  styles: [],
   animations: [
     trigger('fade', [
       transition('void => *', [
@@ -14,7 +14,8 @@ import { trigger, transition, style, animate } from '@angular/animations';
     ])
   ]
 })
-export class HomeComponent implements OnInit {
+export class PageTemplateComponent implements OnInit {
+  @Input() title: string;
 
   constructor() { }
 
